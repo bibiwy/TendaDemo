@@ -1,0 +1,755 @@
+@media (max-width: 767px) {
+    /*超小设备手机（<768px）*/
+
+body{ font-size: 14px; line-height: 24px;}
+
+.header-banner-bd { height: auto; }/*banner高度*/ 
+#header-banner .banner-btn{width:50px;display:none;}
+#header-banner .carousel-indicators-wrap{top:auto;bottom:0px;text-align: center;}
+.bgb{}
+
+
+.nav-logo { width: 120px;height:40px;margin-left:2px;  } 
+.navmenu  { background-color:#fff;width:100%;float:none; display:block; clear:both;height:40px;line-height:40px;  overflow:hidden;}
+.navmenu li {  padding:0px;height:40px;line-height:40px;width:25%;overflow:hidden;   text-align:center; }
+
+ .nav-search, .regions{ margin-top: 12px } 
+ .main-category-item { padding: 10px 0;  }
+ .main-category-name {  font-size: 14px;font-weight:normal;text-align: center;  }
+ .main-category .active { color: #f60; /*background-color: #f2f2f2;*/ box-shadow: none;border-bottom: solid 1px #e3e3e3; }
+  .main-category  {  background-color: #fff; box-shadow: none; border-bottom:none; }
+
+
+ .lpr25sp { margin-bottom:  0px ! important;padding: 0 10px ! important; }
+
+ .subrow3  .thumbnail img {width:100%;}
+ .subrow3 .caption h3 {  padding-top: 10px; padding-bottom: 5px;  }
+ .subrow3 .caption h4 { font-size: 14px;  height: 20px; line-height: 20px;  }
+ .subrow3 .caption h3 a { font-size: 18px; }
+  .subrow3 .caption h5 {  height: auto; line-height: 20px;margin-top:10px;  }
+
+
+    .cpyy, .homrow4 {background-color:#fff;}
+  .cpyy {padding-top:15px;}
+
+
+ .cpyy .solrow3 .caption {  padding: 10px 0; }
+ .cpyy .solrow3 .caption p {  padding: 0px; margin: 0px; line-height: 20px; height: auto; font-size: 14px; }
+.hhy_cell h4 { position: relative;  background: none; line-height: 40px; height: 40px; color: #000; padding: 0 10px; text-align:center;  }
+
+
+ .homrow4 { padding-top: 0px; padding-bottom: 0px;  }
+ .cpyy .thumbnail img ,.homrow4 .thumbnail img{ width: 100%;height:auto; }
+
+ .search-panel { width: 96%; float: none;margin:0 2%; }
+  .search-box {   }
+ .searchFAQBox { padding-bottom: 25px; padding-top:10px; }
+  .searchFAQBox .fdtitle { width: 300px; font-size: 16px;margin-right:0px;text-align:center; line-height:30px;height:30px; float:none; text-align:center; display:block;  margin:5px auto;  }
+  .mlbox { margin-top: 20px; }
+  .search-input-wrap input { padding:5px 0;  }
+  a.btn-search { background: url(../images/service/search24y.png) no-repeat center; width: 18px; height: 24px;  top:9px; }
+  .modlist ul li { height:auto;line-height: 20px; text-align:left;padding-left:5px; }
+    .modlist ul li  a{ height:20px;line-height: 20px; }
+
+
+  /*#searchresult { left: -90px; width: 250px; }
+   #searchresult table { width:100%;}
+  #searchresult .std {   height:30px; line-height:30px;font-size:12px; background-position-x:225px; } 
+   #searchresult2 { width: 300px;top: 32px;     left: 0px;}
+   #searchresult2 .std {   height:30px; line-height:30px;font-size:12px; background-position-x:270px; }*/ 
+ #searchresult2 { width: 300px;top: 32px;     left: 0px;}
+ .tstopic{ display:none; }
+
+
+
+ .group-tips-list dd {overflow:initial; height: 50px; }
+
+ .catalst { padding: 11px 0 18px;  }
+ .service_downhelp .box_2 .download { padding: 0px;  }
+ .service_downhelp .box_2 .download .list { padding: 0; }
+ .service_downhelp .box_2 .download ul,#column5 .piczone  {  }
+ .service_downhelp .box_2 .download ul,#column5 .piczone {  height: 400px;  }
+
+
+ .findFaqList dd {  border-bottom: dashed 1px #F2F2F2; }
+ .searchnews .findFaqList dd { border-bottom: dashed 1px #Fff; }
+
+ #ProBox1 { margin-top: 0px; }
+ .plbox1 {     width: 100%;margin-bottom: 0px; margin-right: 0px;}
+ h2.title {  height: auto; line-height: 20px; padding: 0 10px; font-size:14px; }
+  h2.title  span{  font-size:14px; }
+
+ #ProBox1 .caption p {  line-height: 15px; font-size:14px; padding: 0px;padding-top:10px; }
+ #ProBox1 .caption { height: auto; background-color: #fff;padding-bottom:25px;}
+ #ProBox1 .thumbnail img { width: 70%; }
+ .plbox1 .proicon { bottom:0px;}
+ .line4p20 { display:none; }
+
+
+
+ .group-tips-list span { height: 30px; line-height: 30px; font-size: 14px;  }
+ .group-tips-list span.auto {  padding: 0px; width: 48% ! important;min-width:inherit; margin-right:2%; text-align:center;  text-indent:8px;}
+
+ .servicebanner #dresult { width: 300px;left: -1px; top: 32px; }
+ .servicebanner #dresult .std { width: 300px; height: 30px; line-height: 30px;   background-position-x:270px; font-size: 12px; }
+
+ .servicebanner .swbanner {  top: 20px;width:300px;margin-left: -150px; }
+ .servicebanner .des h1 {  padding-bottom: 5px; font-size: 16px; }
+ .searchwhere {  display:none; }
+
+ .servicebanner .tip {  display:none; }
+
+ .servicebanner .searchHelp #keyHelp { padding: 5px 10px; }
+ .servicebanner .searchHelp #btnService { top: 0px; }
+ .servicebanner .searchHelp {margin-bottom: 0px; width: 300px; max-width: 300px;background-color:#fff;border-radius: 4px;border: 1px solid #ccc;}
+ .servicebanner .searchHelp #keyHelp {  width: 200px; font-size: 12px; border-radius: 0px;border: 0px solid #ccc;  }
+
+
+ .servicebanner .des p { display:none;  }
+ .Downnewbox .dncell {    width: 100%;margin-right:0px;     margin-bottom: 1px;    margin-top: 0px;height: 30px; line-height: 30px;border:none; }
+ .Downnewbox .dncell a { height: 30px; line-height: 30px; overflow:hidden;padding-right:35px;background-position-x:98%;background: #fff url(../images/service/d24.png) no-repeat 95% center;}
+ .prosearchResult {margin-bottom:5px;}
+
+ .findFaqList dd a.news { background-position-x:10px; }
+
+
+ .service_downhelp .box_2 .btn_blue a {  height: 25px; margin: 0%; background:none;line-height:25px; }
+ .findFaqList dd a { background-position:8px; padding-right:0px;padding-left:33px;  }
+ h4.h4faq { font-size: 14px; line-height: 40px; height: 40px; padding-left:5px; }
+ .group-tips {  padding-left: 10px ! important; }
+
+
+ .hortab>li a .tabin {  padding: 10px 0px;  }
+ .hortab > li .tt { margin: 0px;font-size:14px;}
+  .hortab > li .tx {  display:none; }
+  .catacell { padding: 10px 0; background-color: #fff; border-right: solid 0px #ececec; margin-bottom:0px; }
+
+  .catacell  img{ width:50px;padding-bottom:5px; }
+  .catacell h3 { font-size: 14px;  padding-bottom: 5px;}
+
+  .catacell h4 { font-size: 12px;  }
+
+  .service_downhelp .box_2 .download ul li {  padding: 5px 0px; }
+  .newscell { padding:0px; margin-bottom: 0px; }
+  .newscell .thumbnail img { width: 100%; height: auto; }
+  .newscell .caption h3 {  height: 40px; line-height: 20px; font-size:12px;  }
+  .people { padding: 5px 0;margin-top: 5px;  }
+  .newscell .thumbnail { padding-bottom: 5px; }
+
+  h1.newsh1 {  font-size: 14px; padding: 20px 0;padding-bottom:10px; margin: 0px;text-align:left; }
+  .newscell .caption {padding-bottom: 0px; }
+  .rboder { border-right: solid 0px #f2f2f2; }
+  .contentbox { padding: 10px 0px;line-height:20px; }
+
+
+  .footer .bottom {  padding: 10px 0px;  }
+
+  .servicepage{padding:0px 5px}
+    .servicepage img{max-width:100%;}
+
+  .noleftpadding { padding-left: 0px ! important;padding-right: 0px ! important; }
+
+  .proDownResult,.profaqResult { padding: 0px 0 0px 0; background-color:#fff;margin-top:5px; }
+
+
+  .ddart {  width: auto;   line-height:20px;padding:25px 15px;}
+
+
+
+  h1#ddh1 { padding-bottom:5px; font-size:18px;}
+
+  .pagecontent { line-height: 20px; padding: 20px 0; }
+  .sdl0{padding-left:15px;}
+ 
+
+.faqlistitems{padding:10px 10px}
+.faqlistitems h2.tf{font-size:14px; height:auto; line-height:20px;overflow:auto}
+.faqlistitems .summary{padding-bottom:15px;}
+
+
+
+
+.modlist{  width: auto; }
+
+.support .supportItem { margin: 0px;padding:0 15px; }
+    .productModelleft{width:100%;}
+    .support .supportbox { padding: 15px 0 15px; width: 100%; border-left: 0px solid #e4e4e4; margin-left: 0px;font-size: 14px; }
+    .productModelleft a { margin-right: 0px; }
+
+    .downloadCore {  width: 100%;float:none; }
+ 
+    .productModelleft strong { display:none; }
+    .downbox .downszone .prodownmark {display:none; }
+    .downloadCore h1 { text-align:center;font-size:20px; }
+    .downbox .downszone h2 { font-size: 14px; padding: 15px 0;  }
+   
+.modlist ul li span {  width: auto;  }
+
+
+.site-search-form { padding: 25px 10%;  }
+.search-on .site-search { top: 41px;  }
+#searchresult .std { background-position-x:94%;}
+
+
+.search-input { font-size: 14px; width: 80%; height:35px;line-height:35px; }
+.search-btn {   width: 20%;  height:35px; }
+.sboxhere {  overflow: hidden; height:35px; }
+#searchresult .std{color:#fff;height:30px; line-height:30px;font-size:12px;}
+#searchresult .std strong{color:#000;}
+.regions {  margin-top: 5px; margin-right:2px;} 
+
+.nav-phone{position:absolute;left:0px;top:41px;background:#eeeeee;width:100%; z-index:9999}
+.nav-phone a{color:#333;display:block;text-decoration:none;margin:0px 15px;height:30px;line-height:30px;}
+.nav-phone .menu01{border-bottom:1px solid #d6d6d6;}
+.nav-phone .menu01 > a{background:url(../images/nav05.png) no-repeat right center;font-size:1.0em;}
+.nav-phone .menu02 > a{border-bottom:1px solid #c0c0c0;background:url(../images/nav08.png) no-repeat right center;text-indent:15px;font-size:1em;height:30px;line-height:30px;}
+.nav-phone .menu03 > a{border-bottom:1px solid #fff;text-indent:30px;margin:0px;color:#fff;font-size:1em;height:30px;line-height:30px;}
+.nav-phone .menu01 > a.active{background:url(../images/nav06.png) no-repeat right center;}
+.nav-phone .menu02 > a.active{background:url(../images/nav07.png) no-repeat right center;border:none;}
+.nav-phone .menu01 a.last{border:none;}
+.nav-phone .ul01{background:#d6d6d6;}
+.nav-phone .ul02{background:#898989;margin:0px 15px;}
+.nav-phone > b{width:15px;height:8px;position:absolute;top:-8px;right:22px;background:url(../images/h73.png) no-repeat center;display:block;z-index:10;}
+.nav-phone .p01{background:#ccc;font-size:15px;}
+.header-phone{margin-left:12px;}
+.header-phone .navbar-toggle{width:30px;padding:0px;margin-top:7px; outline: 0; border: 0;}
+.header-phone .navbar-toggle .icon-bar{background:#ccc;height:3px;width:80%;display:block;border-radius:0px;margin-bottom:2px;}
+.header-phone .navbar-active .icon-bar{background:#f70;}
+.navbar-toggle { margin-right: 0px; margin-bottom: 0px;border-radius: 0px;}
+
+.ban-text .back{width:760px;margin-left:-380px; height:239px}
+.ban-text .textbox{height:239px;}
+.ban-text .textbox h2,.ban-text .textbox p{display:none;}
+
+.float_qq { display:none; }
+.flexslider {  margin-bottom: 0px; }
+ .proModels>li {  width: 50%;}
+ .cataslide .carousel-control {top: -50px;}
+ .cataslide .left { left: 10px;}
+ .cataslide .right { right: 10px;}
+ .stit {  font-size: 14px;}
+
+ .servicepage h3.smTitle {  font-size: 14px; }
+  ul.timeline:before { left: 40px; } 
+     .tldate { width: 140px; } 
+     ul.timeline li .timeline-panel { width: calc(100% - 90px); width: -moz-calc(100% - 90px); width: -webkit-calc(100% - 90px); } 
+     ul.timeline li .tl-circ { top: 22px; left: 22px; margin-left: 0; } 
+     ul.timeline > li > .tldate { margin: 0; } 
+     ul.timeline > li > .timeline-panel { float: right; } 
+     ul.timeline > li > .timeline-panel:before { border-left-width: 0; border-right-width: 15px; left: -15px; right: auto; }
+      ul.timeline > li > .timeline-panel:after { border-left-width: 0; border-right-width: 14px; left: -14px; right: auto; } 
+        
+          .section-center{padding:0px 0 0 0;}
+          .card-body { padding: 10px; }
+          .card-body h4 {  font-size: 14px; font-weight:700; text-align:center;}
+
+
+ .center { padding-bottom: 0px; }
+    .center h2 { font-size: 22px;  }
+     .feature-wrap h2{ font-size: 14px;font-weight:700; } 
+      .lead {  font-size: 16px;padding:0px;margin:0px;  }
+       .feature-wrap i{ height: 140px; }
+      .feature-wrap i.irow2{ height: 180px;  }
+      .feature-wrap i.irow3{ height: 240px;  }
+       .rdizhi{ padding-left:10px;}
+       .feature-wrap h3 { font-size: 14px;  line-height: 20px;padding-bottom:10px;margin-bottom:0px; }
+.feature-wrap { margin-bottom: 5px; overflow: hidden; }
+#feature1 {  padding: 10px 0; }
+.ddart h1 { padding-bottom: 15px; font-size: 16px;font-weight:bold; }
+
+ .searchFAQBox.searchForProCata { padding:  0;  }
+ .searchForProCata.searchFAQBox .fdtitle {  margin-top: 5px;margin-bottom:0px;font-size: 16px;color:#000;}
+ .searchForProCata.searchFAQBox a.btn-search { width:24px;right:5px; }
+ .searchForProCata.searchFAQBox .modlist ul li a {height: 15px; line-height: 15px;}
+
+  .footer_right { width: 98%; padding: 0 1%; }
+ .footer_rzone { width: auto; padding: 25px 1%; }
+ .contactbox { padding-top:20px; }
+.ContactCell {  padding: 0px; }
+.ContactCell .bgimg {  margin-bottom: 0px; }
+.ContactCell .CellIn { padding: 13px 0; }
+.contactbox .ctrow1 .ctrow1p { height: auto; }
+
+.DownSearchList a { width: 100%;  }
+
+
+.doc-header { height: 170px;  }
+.doc-inner {padding-top: 15px;width:auto;max-width:none; }
+.doc-header .faqtitle{float:none;width:100%;font-size:24px;line-height:40px;text-align:center;}
+.doc-header .search-bar{padding-right:0px;width:100%}
+.xctitle {  background-position:center  center ; font-size: 20px; width: 100%; height: 40px; line-height: 40px;     margin-bottom: 5px; }
+.hotcatalst { padding: 30px 0; }
+
+
+h1#st { font-size: 16px;padding-top: 0px; }
+#sumdes { margin: 0px 0;  }
+.position { background-color:#fff; padding-left:5px;display:none; }
+.licell  h3 { font-size: 14px;font-weight:700;line-height:18px;padding-bottom:0px; }
+
+.top_con .mt20 { margin-top: 1px ! important; }
+.news_nav_v4 a:first-child{display:none;}
+.licell .hitzan {  margin-top: 0px;padding-bottom:0px;}
+
+
+.art p { font-size: 14px;line-height:22px; }
+
+.dgreenbox .dgreen p {  padding-bottom: 15px;  padding-top: 0px; }
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*小型设备平板电脑 大于等于768px 小于992px*/
+
+
+body{ font-size: 14px; line-height: 24px;}
+
+
+
+/*首页banner*/
+
+
+
+.eshop .hidden{display: inline ! important ;}
+/*.regions {  background-color:green; }*/ 
+
+.nav-logo { width: 120px;height:50px;  } 
+.navmenu li {      padding: 0 8px;height:50px;line-height:50px; }
+
+ .nav-search, .regions{ margin-top: 10px } 
+ .main-category-item { padding: 10px 0;  }
+ .main-category-name {  font-size: 14px; }
+ .lpr25sp {margin-bottom: 25px; }
+
+ #ProBox1 { margin-top: 10px; }
+ .subrow3 {  }
+  .subrow3  .thumbnail img {width:126px;}
+ .subrow3 .caption h3 {  padding-top: 10px; padding-bottom: 5px;  }
+ .subrow3 .caption h4 { font-size: 12px;  height: 30px; line-height: 15px;  }
+ .subrow3 .caption h3 a { font-size: 14px; }
+
+ .cpyy .solrow3 .caption p {  padding: 0px 10px; margin: 0px; line-height:20px; height: 20px; font-size: 12px; }
+
+
+
+
+ .homrow4 { padding-top: 0px; padding-bottom: 0px;  }
+ .cpyy .thumbnail img ,.homrow4 .thumbnail img{ width: 350px;height:221px; }
+  .cpyy .lpr25sp { margin-bottom: 0px; }
+ .search-panel { width: 500px; float: left; }
+   .search-input-wrap input { padding:5px 0;  } 
+
+   a.btn-search {  top: 0px; }
+
+ .searchFAQBox { padding: 35px 0;  }
+  .searchFAQBox .fdtitle { width: 130px; font-size: 18px;height: 36px;line-height:36px;  }
+   /*.searchForProCata{padding-top:50px;    padding-bottom: 30px ! important;}*/
+ .mlbox { margin-top: 50px; }
+
+
+
+  #searchresult { left: -348px; }
+  #searchresult .std {   height:30px; line-height:30px;font-size:12px; background-position-x:480px; } 
+   #searchresult2 { width: 500px;top: 32px; }
+   #searchresult2 .std {   height:30px; line-height:30px;font-size:12px; background-position-x:470px; } 
+
+
+
+ .plbox1 {     width: 234px;margin-right: 15px;     margin-bottom: 15px;}
+ h2.title {  height: 40px; line-height: 20px; font-size:14px; padding:0px;}
+   h2.title  span{  font-size:14px; }
+
+
+ #ProBox1 .caption p {  line-height: 15px; font-size:12px;   padding-top: 0px; }
+ #ProBox1 .caption { height: 50px;  }
+
+ .group-tips-list dt { width: 110px; }
+ .group-tips-list span { height: 30px; line-height: 30px; font-size: 14px; width: 100px; }
+ .group-tips-list span.auto {  padding: 0 10px; min-width:inherit;width: auto; }
+  .group-tips-list span.auto img{  display:none; }
+  .group-tips-list dd { height: 40px; }
+  .group-tips {  padding: 0px 0px 10px 15px; }
+
+ .servicebanner .swbanner {  top: 50px;width:600px;max-width: 600px;margin-left:-300px;}
+ .servicebanner .des h1 {   font-size: 20px;padding-bottom:5px;   }
+ .searchwhere { padding-top: 0px; }
+ .searchwhere select, .searchwhere #btnPartner { margin-bottom: 15px; line-height: 30px; height: 30px; }
+
+ .servicebanner #dresult,.servicebanner #dresult .line ,.servicebanner #dresult .std{width: 600px;  }  
+.servicebanner #dresult .std {background-position-x:560px;  }  
+.servicebanner #dresult {top: 32px;} 
+
+
+
+
+
+ .servicebanner .searchHelp #keyHelp { padding: 5px 10px; }
+ .servicebanner .searchHelp #btnService { top: 0px; }
+ .servicebanner .searchHelp {margin-bottom: 10px;width:600px;max-width: 600px; }
+ .servicebanner .des p { font-size: 16px; line-height: 24px; padding-bottom: 10px;  }
+ .Downnewbox .dncell {    width: 49%; height: 40px; line-height: 40px;    margin-top: 10px; }
+  .Downnewbox .dncell a{    height: 40px; line-height: 40px; }
+
+ .service_downhelp .box_2 .btn_blue a {  height: 25px; margin: 0%; background:none;line-height:25px; }
+
+
+
+
+
+
+ .hortab>li a .tabin {  padding: 10px 15px;  }
+ .hortab > li .tt { margin: 0 10px 0px;font-size:14px;font-weight:700;}
+  .hortab > li .tx { padding: 0 0px;line-height:15px;font-size:12px; }
+
+  .catacell  img{ width:40px;padding-bottom:5px; }
+  .catacell h3 { font-size:14px;font-weight:700;  padding-bottom: 5px;}
+
+  .catacell h4 { font-size: 12px;  }
+
+  .service_downhelp .box_2 .download ul li {  padding: 5px 0px; }
+  .newscell .thumbnail img { width: 235px; height: 148px; }
+  .newscell .caption h3 {  height: 40px; line-height: 20px; font-size:12px;  }
+  .people { padding: 5px 0;margin-top: 5px;  }
+  .newscell .thumbnail { padding-bottom: 5px; }
+
+  h1.newsh1 {  font-size: 16px;  }
+
+.proDownResult,.profaqResult {  padding: 10px 0 20px 0; }
+
+.findFaqList dd,.findFaqList dd a { line-height: 30px; height: 30px;  }
+.pro-nav .container { padding-top: 5px; }
+.pro-nav .col a {  padding-bottom: 5px; }
+h4.h4result { font-size: 14px; line-height: 40px; height: 40px;  border-bottom: solid 0px #F0F0F0; }
+ .catalst { padding: 20px 0 20px;  }
+ .servicepage, .nhrow  { padding: 15px 0; }
+ .pagecontent { padding-top:10px; }
+
+
+ .rboder { border-right: solid 0px #f2f2f2; }
+
+
+
+
+
+.ddart .ddimg img{width:150px; }
+  h1#ddh1 { padding-bottom:5px;}
+
+  .faqlistitems{padding:10px 10px}
+.faqlistitems h2.tf{font-size:14px; height:40px; line-height:20px;}
+.faqlistitems .summary{padding-bottom:15px;}
+
+.nav-drop{top:48px;  }
+.plbox1 .proicon {display:none }
+.modlist{      width: 500px; }
+  .modlist ul { padding: 5px 0px 0px;  }
+
+  .support .supportItem { margin: 0px;padding:0 15px; }
+    .productModelleft{width:100%;}
+    .support .supportbox { padding: 15px 0 15px; width: 100%; border-left: 0px solid #e4e4e4; margin-left: 0px; }
+    .productModelleft a { margin-right: 0px; }
+
+    .downloadCore {  width: 100%;float:none; }
+    .productModelleft strong { display:none; }
+    .downbox .downszone .prodownmark {display:none; }
+    .downloadCore h1 { text-align:center;font-size:20px; }
+    .downbox .downszone h2 { font-size: 16px; padding: 15px 0;  }
+
+
+     .site-search-form { padding: 25px 10%;  }
+  .search-on .site-search { top: 51px;  }
+  #searchresult .std { background-position-x:530px;}
+
+  /*二级banner*/
+
+.ban-text .back{width:1200px;margin-left:-600px; height:250px}
+.ban-text .textbox{height:250px;}
+.ban-text .btxtdiv{padding-top:80px;}
+.ban-text .textbox h2{font-size:30px; padding-bottom:10px;}
+.ban-text .textbox p{font-size:14px; }
+
+     .timeline li .timeline-panel { width: 44%; }
+
+       .rdizhi{ padding-left:10px;}
+      .center h2 { font-size: 30px;  }
+ .feature-wrap i{ height: 140px ! important;  }
+ .feature-wrap i.irow3{ height: 300px ! important;  }
+ .float_qq {  top: 300px;}
+ .flexslider { margin-bottom: 0px; }
+
+
+ 
+ .center { padding-bottom: 0px; }
+    .center h2 { font-size: 22px;  }
+     .feature-wrap h2{ font-size: 14px;font-weight:700; } 
+      .lead {  font-size: 16px;padding:0px;margin:0px;  }
+       .feature-wrap i{ height: 140px; }
+      .feature-wrap i.irow2{ height: 180px;  }
+      .feature-wrap i.irow3{ height: 240px;  }
+       .rdizhi{ padding-left:10px;}
+       .feature-wrap h3 { font-size: 14px;  line-height: 20px;padding-bottom:10px;margin-bottom:0px; }
+.feature-wrap { margin-bottom: 5px; overflow: hidden; }
+#feature1 {  padding: 10px 0; }
+.ddart h1 { padding-bottom: 15px; font-size: 16px;font-weight:bold; }
+
+ .searchFAQBox.searchForProCata { padding:  0;  }
+ .searchForProCata.searchFAQBox .fdtitle {  margin-top: 25px;margin-bottom:0px;font-size: 16px;color:#000;}
+
+ .footer_lzone {  padding: 24px  0;  }
+ .footaddr {  padding-bottom: 0px; display:none; }
+.footer_rbox { height: 40px; line-height: 40px; }
+ .footer_rzone { width: 320px; padding: 54px 0 0px; }
+ .footaddr{ line-height:20px; padding: 5px 0;  }
+.copyright { line-height:20px; padding-top:10px; }
+.contactbox { padding-top:20px; }
+.ContactCell {  padding: 0px; height:350px; }
+.ContactCell .bgimg {  margin-bottom: 0px; }
+.ContactCell .CellIn { padding: 13px 0;padding-left:5px; }
+.ContactCell .CellIn p strong { font-size: 14px; margin-bottom: 4px; }
+.ContactCell .CellIn p.tel {  padding-left:30px; }
+.ContactCell .CellIn p.email {  padding-left:30px; }
+.DownSearchList a { width: 100%;  }
+
+
+.doc-header .faqtitle {  width: 150px; font-size: 26px;  }
+.doc-header .search-bar { width: 580px; }
+.licell .hitzan {  padding-bottom: 10px; }
+.licell h3 { font-size: 20px;  padding-bottom: 10px; }
+
+.doc-inner { max-width: 750px; width:750px;}
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*中型设备台式电脑 大于等于992px  小于1200px*/
+
+
+
+/*首页banner*/
+
+
+
+/*.regions {  background-color:yellow; }*/ 
+
+.nav-logo { width: 160px;height:50px;    } 
+.navmenu li {  padding:0 20px;height:50px;line-height:50px; }
+
+ .nav-search, .regions{ margin-top: 12px } 
+
+ .main-category-name {  font-size: 14px; }
+ .main-category-item { padding: 12px 0;}
+  .subrow3  .thumbnail img {width:170px;}
+.cpyy .thumbnail img ,.homrow4 .thumbnail img{ width: 298px;height:188px; }
+ .subrow3 { padding-top: 10px; padding-bottom: 20px; }
+ .subrow3 .caption h3 {  padding-top: 10px; padding-bottom: 5px;  }
+ .subrow3 .caption h4 { font-size: 12px;  height: 30px; line-height: 15px;  }
+ .subrow3 .caption h3 a { font-size: 14px; }
+ .cpyy .solrow3 .caption {  padding: 10px 0; }
+ .cpyy .solrow3 .caption p {  padding: 0px 10px; margin: 0px; line-height: 15px; height: 30px; font-size: 12px; }
+
+ .search-panel { width: 600px; float: left; }
+
+
+
+
+ .searchFAQBox { padding: 35px 0;  }
+  .searchFAQBox .fdtitle { width: 200px; font-size: 18px;height: 36px; line-height: 36px;  }
+
+ .mlbox { margin-top: 50px; }
+
+
+ .plbox1 { width: 306px;margin-right: 15px;     margin-bottom: 15px; }
+ h2.title {  height: 40px; line-height: 18px;font-size:16px;padding:0 10px; font-size:14px; }
+  h2.title span{  font-size:14px;  }
+ #ProBox1 .caption p {  line-height: 20px; }
+ #ProBox1 .caption { height: 70px;   }
+   .plbox1 .proicon { bottom: 5px;  }
+
+ .group-tips-list span { height: 30px; line-height: 30px; font-size: 14px;  }
+ .group-tips-list span.auto {  padding: 0 10px; min-width: 120px; }
+ 
+
+ #searchresult .std { height: 35px; line-height: 35px;}
+ .servicebanner .swbanner {  top: 70px;}
+ .servicebanner .des h1 {   font-size: 28px;padding-bottom:15px;   }
+ .servicebanner .searchHelp #keyHelp { padding: 10px 0px; }
+.servicebanner .searchHelp #btnService { top: 5px; }
+
+ .hortab>li a .tabin {  padding: 10px 15px;  }
+ .hortab > li .tt { margin: 0 10px 5px;font-size:14px;font-weight:700;}
+  .hortab > li .tx { padding: 0 0px;line-height:15px;font-size:12px; }
+
+  .catacell  img{ width:50px;padding-bottom:5px; }
+  .catacell h3 { font-size:14px;font-weight:700; padding-bottom: 5px;}
+
+  .catacell h4 { font-size: 12px;  }
+
+  .service_downhelp .box_2 .download ul li {  padding: 5px 0px; }
+  .newscell .thumbnail img { width: 228px; height: 144px; }
+  .newscell .caption h3 {  height: 40px; line-height: 20px;  }
+  .people { padding: 5px 0;margin-top: 5px;  }
+  .newscell .thumbnail { padding-bottom: 5px; }
+  .homrow4 { padding-top: 10px; padding-bottom: 20px; }
+  .pro-nav .container { padding-top: 8px; }
+.pro-nav .col a {  padding-bottom: 8px; }
+
+ #searchresult2 { width: 600px; left: 0px; padding-bottom: 5px; top: 35px; }
+ #searchresult2 .std {  height: 30px; line-height: 30px; background-position-x:565px; }
+
+.Downnewbox .dncell ,.Downnewbox .dncell a { height: 40px; line-height: 40px;  }
+.proDownResult,.profaqResult {  padding: 10px 0 20px 0; }
+h4.h4result { font-size: 14px; line-height: 40px; height: 40px; border-bottom: solid 0px #F0F0F0; }
+.catalst { padding: 20px 0 28px;  }
+.service_downhelp .box_2 .btn_blue {  height: 30px; line-height: 30px; }
+.service_downhelp .box_2 .btn_blue a { height: 30px; line-height: 30px; margin: 0 5%; }
+.servicepage,.nhrow { padding: 20px 0; }
+.searchwhere { padding-top: 20px; }
+.searchwhere select, .searchwhere #btnPartner {  line-height: 35px; height: 35px; }
+.findFaqList dd,.findFaqList dd a{height:30px;line-height:30px;}
+
+
+.ddart .ddimg img{width:160px; }
+  h1#ddh1 { padding-bottom:5px;}
+  .nav-drop{top:48px;  }
+
+  .modlist{  width: 600px; }
+
+  .site-search-form { padding: 25px 10%;  }
+  .search-on .site-search { top: 51px;  }
+  #searchresult .std { background-position-x:700px;}
+
+  /*二级banner*/
+
+.ban-text .back{width:1200px;margin-left:-600px; height:250px}
+.ban-text .textbox{height:250px;}
+.ban-text .btxtdiv{padding-top:70px;}
+.ban-text .textbox h2{font-size:40px;padding-bottom:20px;}
+.ban-text .textbox p{font-size:16px; }
+
+ .feature-wrap i{  display:none; }
+.rdizhi{ padding-left:10px;}
+.proModels>li { width: 120px;   }
+ .searchFAQBox.searchForProCata { padding:   0;  }
+ .searchForProCata.searchFAQBox .fdtitle {  margin-top: 25px;margin-bottom:0px;font-size: 16px;color:#000;}
+
+ .footer_lzone dl {  width: 128px; }
+
+ .ContactCell {  padding: 0px; height:360px; }
+.ContactCell .CellIn { padding: 0 5px 0px 15px; }
+
+
+ .footer_lzone {padding: 40px 0 25px;  }
+  .footer_lzone dl {  width: 138px; }
+  .footaddr {  padding-bottom: 0px; }
+  .footer_rzone { width: 356px; padding: 40px 0 20px; }
+
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1598px) {
+  
+    /*.regions {  background-color:blue; }*/ 
+ 
+
+    /*首页banner*/
+
+
+
+h4.h4result { font-size: 14px; line-height: 40px; height: 40px; border-bottom: solid 0px #F0F0F0; }
+
+.nav-logo { width: 180px;height:50px;  } 
+.navmenu li {  padding:0 35px;height:50px;line-height:50px; }
+.main-category-name { font-size: 16px; }
+.main-category-item { padding: 15px 0;  }
+ .nav-search, .regions{ margin-top: 12px } 
+ .searchFAQBox { padding: 35px 0;  }
+ .searchForProCata{}
+ .mlbox { margin-top: 50px; }
+
+
+  #ProBox1 { margin-top: 10px; }
+ .plbox1 { width: 374px; margin-right: 15px;    margin-bottom: 15px; }
+ .searchFAQBox .fdtitle { width: 250px; font-size: 20px;  }
+ .search-panel { width: 650px;  }
+ .servicebanner .swbanner {  top: 90px;}
+ .servicebanner .des h1 {   font-size: 30px;padding-bottom:15px;   }
+ .hortab > li .tx { padding: 0 30px; }
+ .newscell .thumbnail img { width: 278px; height: 175px; }
+
+ .subrow3  .thumbnail img {width:232px;}
+  .cpyy .thumbnail img ,.homrow4 .thumbnail img{ width: 365px;height:231px; }
+  .group-tips-list span { line-height: 35px;height:35px}
+  .Downnewbox .dncell ,.Downnewbox .dncell a { height: 40px; line-height: 40px;  }
+
+  .findFaqList dd,.findFaqList dd a{height:30px;line-height:30px;}
+
+  .servicebanner .searchHelp #keyHelp { padding: 10px 0px;}
+  .servicebanner .searchHelp #btnService {top: 4px;}
+  .servicebanner #dresult .std {}
+
+  .catalst,.nhrow {padding:20px 0;}
+  .hortab>li a .tabin { padding: 10px 10px; }
+
+
+
+  .nav-drop{top:48px;  }
+
+
+   #searchresult2 {width: 650px; left: 0px; padding-bottom: 5px; top: 40px;}
+   .modlist{  width: 650px; }
+    .site-search-form { padding: 25px 10%;  }
+  .search-on .site-search { top: 51px;  }
+  #searchresult .std { background-position-x:860px;}
+
+
+    .ban-text .back{width:1600px;margin-left:-800px; height:333px}
+.ban-text .textbox{height:333px;}
+.ban-text .btxtdiv{padding-top:120px;}
+.ban-text .textbox h2{font-size:40px; padding-bottom:20px;}
+.ban-text .textbox p{font-size:16px; }
+
+.cpyy .solrow3 .caption {  padding: 5px 0; }
+.cpyy .solrow3 .caption p { line-height: 30px; height: 30px ;font-size: 14px; margin-top: 0em;  }
+
+.searchFAQBox.searchForProCata { padding:   0;  }
+ .searchForProCata.searchFAQBox .fdtitle {  margin-top: 25px;margin-bottom:0px;font-size: 16px;color:#000;}
+
+ .footer_lzone {padding: 40px 0 25px;  }
+  .footer_lzone dl {  width: 160px; }
+  .footaddr {  padding-bottom: 0px; }
+  .footer_rzone { width: 356px; padding: 40px 0 20px; }
+  .ContactCell {  padding: 0px; height:400px; }
+
+}
+
+
+
+
+
+@media (min-width: 1599px) {
+ /*.regions {  background-color:red; }*/ 
+.container{width:1500px;}
+.nav-logo { width: 250px;  }
+.navmenu li {padding:0 50px; }  
+
+.plbox1 { width: 475px;  }/*3个产品及以上*/
+
+.plbox1.proonlytwo{width:48% ! important;} /*只两个产品*/
+.plbox1.proonlytwo .thumbnail img{width:30% ! important;}
+.plbox1.proonlyone{width:100% ! important;float:none;margin-right:0px ! important;}/*只1个产品*/
+.plbox1.proonlyone .thumbnail img{width:15% ! important;}
+
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+    ul.fireul li{ line-height:20px ! important;   }
+
+    ul.fireul{margin-bottom:15px;}
+     .downloadCore dl dt {  display:none; }
+    .downloadCore dl dd {  line-height: 25px; height: 25px;  }
+     .proModels>li { width: 160px;   }
+}

@@ -1,0 +1,31 @@
+.west_button_a {
+	color: rgb(0, 0, 0);
+	font-size: 13px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	 /*  */
+	padding-right: 10px;
+	padding-left:10px;
+	
+	border-color:;
+	border-style:;
+	border-radius:12px;
+	background-color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.west_button_a:hover {
+	color: #ffffff;
+	background-color: #78c300;
+	border-color: #f8ffed;
+}
+
+.west_li{
+	padding-bottom:18px; 
+	padding-left:46px;
+	padding-top: 9px;
+}
+
+.west_ul{
+    list-style: none;
+}

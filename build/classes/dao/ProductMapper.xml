@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="dao.ProductMapper">	
+
+	<!-- 返回商品数据 -->
+	<select id="getAllProduct" resultType="pojo.Product">
+		SELECT * FROM product 
+		<where>
+			<if test="PRO_Name!=null and PRO_Name!=''">
+				 AND PRO_Name = #{PRO_Name} 
+			</if>
+			
+			<if test="PRO_Model!=null and PRO_Model!=''">
+				and PRO_Model =#{PRO_Model}
+			</if>
+		</where>
+		LIMIT #{page},#{rows}    
+	</select>
+	
+	<!-- 返回商品的总数 -->
+	<select id="getAllProductTotal" resultType="int" >
+		select count(*) from product  
+	</select>
+	
+	<!-- 删除删品 -->
+	<delete id="deleteProduct" parameterType="string" >
+		DELETE FROM product WHERE stringID = #{stringId}
+	</delete>
+	
+	<!-- 查看商品 -->
+	<select id="lookProduct" resultType="pojo.Product" parameterType="string">
+		SELECT * FROM product WHERE stringID =#{stringId}
+	</select>
+	
+	<!-- 保存商品信息 -->
+	<insert id="insertProduct" parameterType="pojo.Product">
+		insert into product (stringID,pType,pPic,PRO_Model,PRO_Name,ProPic,PRO_OneWord,jd,tm,
+		detailed_information,commodity_interface,power_input,size,temperature,humidity,indicator_light,
+		associated_products,authentication,operating_system,price)
+		values(#{stringID},#{pType},#{pPic},#{PRO_Model},#{PRO_Name},
+		#{ProPic},#{PRO_OneWord},#{jd},#{tm},#{detailed_information},
+		#{commodity_interface},#{power_input},#{size},#{temperature},
+		#{humidity},#{indicator_light},#{associated_products},
+		#{authentication},#{operating_system},#{price})
+	</insert>
+	
+	
+	<!-- 查看某个商品 -->
+	<select id="getOneProduct" resultType="string">
+		select pPic from product where 1=1 
+		<if test="fileName!=null and fileName!=''">
+			AND ProPic LIKE CONCAT(CONCAT('%',#{fileName},'%'))
+		</if>
+	</select>
+	
+	
+	<!-- 返回某类商品 -->
+	<select id="getOneTypeProduct" resultType="pojo.Product" parameterType="String">
+		SELECT * FROM product where pType =#{name} 
+	</select>
+	
+	<!-- 返回某类商品 -->
+	<select id="getOneTypeProductTotal" resultType="int" parameterType="String">
+		select count(*) from product where pType =#{name}
+	</select>
+	
+	
+	<!-- 返回某个商品 -->
+	<select id="getOneStringIdProduct" resultType="pojo.Product" parameterType="String">
+		SELECT * FROM product where stringID =#{stringId} 
+	</select>
+	
+	<!-- 更新某个商品的信息 -->
+	<update id="updateProduct" >
+	UPDATE product SET 
+		  pType=#{pType},
+		  PRO_Model=#{PRO_Model},
+		  PRO_Name=#{PRO_Name},
+		  PRO_OneWord=#{PRO_OneWord},
+		  jd=#{jd},tm=#{tm},
+		  detailed_information=#{detailed_information},
+		  commodity_interface=#{commodity_interface},
+		  power_input=#{power_input},
+		  size=#{size},
+		  temperature=#{temperature},
+		  humidity=#{humidity},
+		  indicator_light=#{indicator_light},
+		  associated_products=#{associated_products},
+		  authentication=#{authentication},
+		  operating_system=#{operating_system},
+		  price=#{price}
+		  where stringID=#{stringID}	
+	</update>
+	
+	
+	
+</mapper>

@@ -1,0 +1,55 @@
+﻿@media (max-width: 767px) {
+    /*超小设备手机（<768px）*/
+
+    .miniNavBox { float: none;text-align: left; }
+    .showinxs{display:inline; }
+    .hiddenxs{display:none; }
+
+.flexslider{ width:100%;  }
+.slides{height:auto; width:100%;}
+
+.FaqList li{ line-height:35px; height:35px; background-position-y:10px; }
+
+.FaqList{ margin-top:20px;  }
+.nodata{height:400px; line-height:400px;}
+.sptdleft{  text-align:left; color:#000; padding-right:0px;  line-height:45px;}
+.sptdright{    border-top:solid 1px #f0f1f3 ;  line-height:35px; }
+
+#tab_conbox li { margin-bottom: 15px; padding: 0px 10px;padding-bottom: 15px; }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*小型设备平板电脑 大于等于768px 小于992px*/
+
+.flexslider{ width:500px;  }
+.slides{height:500px; width:500px;}
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*中型设备台式电脑 大于等于992px  小于1200px*/
+
+
+
+
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  
+    /*大型设备台式电脑（≥1200px）*/
+     
+
+
+
+
+
+
+
+}
+
+
+
